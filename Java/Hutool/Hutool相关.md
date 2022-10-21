@@ -1,6 +1,8 @@
-## Hutool中的坑
+## Hutool相关
 
-### URL编解码
+### `URLEncodeUtil`
+
+#### URL编码
 
 使用`URLEncodeUtil`工具类中`encode`方法将URL编码，某些特殊字符未被转义，例如：`+`
 
